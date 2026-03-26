@@ -3,7 +3,7 @@ name: Create IPA Packages
 on:
   workflow_dispatch:
     inputs:
-      ipa_url:
+      ipa_url: "https://github.com/vaso-rl/EeveeSpotifyReborn/releases/download/hjh/com.spotify.client-9.1.30-Decrypted.ipa"
         description: "URL to the decrypted IPA file"
         default: ""
         required: true
